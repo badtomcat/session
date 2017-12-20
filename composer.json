@@ -16,7 +16,7 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
-    "badtomcat/config": "dev-master"
+    "badtomcat/config": "~0.0.1"
   },
   "require-dev": {
 
@@ -27,11 +27,4 @@
       "Badtomcat\\Session\\": "src/"
     }
   }
-
-,"repositories": [
-  {
-    "type": "vcs",
-    "url": "https://github.com/badtomcat/config.git"
-  }
-]
 }
