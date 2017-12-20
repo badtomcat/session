@@ -1,0 +1,37 @@
+{
+  "name": "badtomcat/session",
+  "description": "用于管理网站SESSION",
+  "type": "project",
+  "keywords": [
+    "session"
+  ],
+  "homepage": "https://github.com/badtomcat/session",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "badtomcat",
+      "email": "531164479@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "badtomcat/config": "dev-master"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "Badtomcat\\Session\\": "src/"
+    }
+  }
+
+,"repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/badtomcat/config.git"
+  }
+]
+}
